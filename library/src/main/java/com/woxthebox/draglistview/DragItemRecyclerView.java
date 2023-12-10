@@ -205,7 +205,7 @@ public class DragItemRecyclerView extends RecyclerView implements AutoScroller.A
             }
         }
         super.setAdapter(adapter);
-        mAdapter = (DragItemAdapter) adapter;
+        mAdapter = adapter;
     }
 
     @Override
